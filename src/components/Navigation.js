@@ -18,6 +18,9 @@ const Navigation = () => {
                 <li>
                   <Link to="/PokemonCatcher">Pokemon Catcher</Link>
                 </li>
+                <li>
+                        <Link to="/games">Games</Link>
+                    </li>
             </ul>
         </nav>
         </>

@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Count from './pages/Count';
 import RandomJoke from './pages/RandomJoke';
 import PokemonCatcher from './pages/PokemonCatcher';
+import Games from "./pages/Games"; 
 
 
 
@@ -26,6 +27,8 @@ const App = () => {
   <Route path="/count" element={ <Count />} />
   <Route path="/RandomJoke" element={ <RandomJoke />} />
   <Route path="/PokemonCatcher" element={ <PokemonCatcher />} />
+  <Route path="/games" element={ <Games />} />
+  
 
 </Routes>
 </main>
